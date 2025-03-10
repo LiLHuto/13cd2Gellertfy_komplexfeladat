@@ -1,0 +1,223 @@
+{
+	"info": {
+		"_postman_id": "63ecee58-8fb6-4f84-aac9-7ede744bd9df",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41571378"
+	},
+	"item": [
+		{
+			"name": "Tesztelés",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/felvettek-rangsora?agazat=informatika",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"felvettek-rangsora"
+					],
+					"query": [
+						{
+							"key": "agazat",
+							"value": "informatika"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Tesztelés",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/elozetes-rangsor",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"elozetes-rangsor"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "9801"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2649-aTj9hniYBNf9PMljSpud2QzF/4I\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Mar 2025 13:05:07 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Tanuló neve\": \"Antal Olga\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 106\n    },\n    {\n        \"Tanuló neve\": \"Antal Olivér\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 145\n    },\n    {\n        \"Tanuló neve\": \"Antal Vilmos\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 123\n    },\n    {\n        \"Tanuló neve\": \"Bakos Tivadar\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 107\n    },\n    {\n        \"Tanuló neve\": \"Balázs Zsigmond\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 139\n    },\n    {\n        \"Tanuló neve\": \"Balog Klaudia\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 134\n    },\n    {\n        \"Tanuló neve\": \"Balogh Marcell\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 185\n    },\n    {\n        \"Tanuló neve\": \"Balogh Rita\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 120\n    },\n    {\n        \"Tanuló neve\": \"Barna Roland\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 95\n    },\n    {\n        \"Tanuló neve\": \"Bodnár Krisztián\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 200\n    },\n    {\n        \"Tanuló neve\": \"Bodnár Petra\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 93\n    },\n    {\n        \"Tanuló neve\": \"Bodnár Réka\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 168\n    },\n    {\n        \"Tanuló neve\": \"Bogdán Tímea\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 150\n    },\n    {\n        \"Tanuló neve\": \"Bognár Richárd\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 122\n    },\n    {\n        \"Tanuló neve\": \"Borbély Marcell\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 121\n    },\n    {\n        \"Tanuló neve\": \"Budai Lóránt\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 139\n    },\n    {\n        \"Tanuló neve\": \"Csonka Róza\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 121\n    },\n    {\n        \"Tanuló neve\": \"Dobos Zita\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 171\n    },\n    {\n        \"Tanuló neve\": \"Dudás Renáta\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 126\n    },\n    {\n        \"Tanuló neve\": \"Faragó Patrik\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 179\n    },\n    {\n        \"Tanuló neve\": \"Faragó Renátó\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 144\n    },\n    {\n        \"Tanuló neve\": \"Faragó Zsigmond\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 164\n    },\n    {\n        \"Tanuló neve\": \"Farkas Szilvia\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 151\n    },\n    {\n        \"Tanuló neve\": \"Fazekas Olga\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 159\n    },\n    {\n        \"Tanuló neve\": \"Fehér Renátó\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 125\n    },\n    {\n        \"Tanuló neve\": \"Fehér Viktória\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 145\n    },\n    {\n        \"Tanuló neve\": \"Fodor Nándor\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 141\n    },\n    {\n        \"Tanuló neve\": \"Fodor Richárd\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 150\n    },\n    {\n        \"Tanuló neve\": \"Fodor Roland\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 122\n    },\n    {\n        \"Tanuló neve\": \"Gál Virág\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 146\n    },\n    {\n        \"Tanuló neve\": \"Gulyás Piroska\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 133\n    },\n    {\n        \"Tanuló neve\": \"Gulyás Richárd\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 135\n    },\n    {\n        \"Tanuló neve\": \"Gulyás Szilvia\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 183\n    },\n    {\n        \"Tanuló neve\": \"Halász Martin\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 143\n    },\n    {\n        \"Tanuló neve\": \"Hegedüs Mária\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 190\n    },\n    {\n        \"Tanuló neve\": \"Hegedűs Máté\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 166\n    },\n    {\n        \"Tanuló neve\": \"Hegedűs Zita\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 146\n    },\n    {\n        \"Tanuló neve\": \"Horváth Pál\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 173\n    },\n    {\n        \"Tanuló neve\": \"Horváth Renáta\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 115\n    },\n    {\n        \"Tanuló neve\": \"Horváth Richárd\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 148\n    },\n    {\n        \"Tanuló neve\": \"Illés Marcell\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 106\n    },\n    {\n        \"Tanuló neve\": \"Jónás Sándor\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 126\n    },\n    {\n        \"Tanuló neve\": \"Katona Virág\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 121\n    },\n    {\n        \"Tanuló neve\": \"Kelemen Viktória\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 177\n    },\n    {\n        \"Tanuló neve\": \"Kelemen Zsófia\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 143\n    },\n    {\n        \"Tanuló neve\": \"Kerekes Richárd\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 177\n    },\n    {\n        \"Tanuló neve\": \"Király Lili\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 163\n    },\n    {\n        \"Tanuló neve\": \"Király Réka\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 124\n    },\n    {\n        \"Tanuló neve\": \"Király Szabolcs\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 169\n    },\n    {\n        \"Tanuló neve\": \"Kiss Szilvia\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 159\n    },\n    {\n        \"Tanuló neve\": \"Kocsis Marcell\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 140\n    },\n    {\n        \"Tanuló neve\": \"Lakatos Tibor\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 148\n    },\n    {\n        \"Tanuló neve\": \"László Martin\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 155\n    },\n    {\n        \"Tanuló neve\": \"Magyar Klaudia\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 147\n    },\n    {\n        \"Tanuló neve\": \"Magyar Lóránt\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 172\n    },\n    {\n        \"Tanuló neve\": \"Magyar Szabolcs\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 175\n    },\n    {\n        \"Tanuló neve\": \"Major Marcell\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 109\n    },\n    {\n        \"Tanuló neve\": \"Major Richárd\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 153\n    },\n    {\n        \"Tanuló neve\": \"Major Szabolcs\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 135\n    },\n    {\n        \"Tanuló neve\": \"Major Veronika\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 159\n    },\n    {\n        \"Tanuló neve\": \"Máté Olga\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 170\n    },\n    {\n        \"Tanuló neve\": \"Máté Zoltán\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 180\n    },\n    {\n        \"Tanuló neve\": \"Mészáros Olga\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 176\n    },\n    {\n        \"Tanuló neve\": \"Mészáros Renáta\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 158\n    },\n    {\n        \"Tanuló neve\": \"Molnár Szilvia\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 142\n    },\n    {\n        \"Tanuló neve\": \"Nagy Renáta\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 111\n    },\n    {\n        \"Tanuló neve\": \"Nagy Vince\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 128\n    },\n    {\n        \"Tanuló neve\": \"Nemes Martin\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 163\n    },\n    {\n        \"Tanuló neve\": \"Nemes Martin\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 137\n    },\n    {\n        \"Tanuló neve\": \"Németh Roland\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 106\n    },\n    {\n        \"Tanuló neve\": \"Novák Martin\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 142\n    },\n    {\n        \"Tanuló neve\": \"Oláh Lilla\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 151\n    },\n    {\n        \"Tanuló neve\": \"Oláh Olga\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 172\n    },\n    {\n        \"Tanuló neve\": \"Orbán Terézia\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 121\n    },\n    {\n        \"Tanuló neve\": \"Orosz Szabolcs\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 143\n    },\n    {\n        \"Tanuló neve\": \"Orosz Zalán\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 126\n    },\n    {\n        \"Tanuló neve\": \"Orsós Szabolcs\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 178\n    },\n    {\n        \"Tanuló neve\": \"Pál Mariann\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 120\n    },\n    {\n        \"Tanuló neve\": \"Pál Márta\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 155\n    },\n    {\n        \"Tanuló neve\": \"Pap Szilvia\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 166\n    },\n    {\n        \"Tanuló neve\": \"Pásztor Szilvia\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 164\n    },\n    {\n        \"Tanuló neve\": \"Pataki Mariann\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 160\n    },\n    {\n        \"Tanuló neve\": \"Pataki Renáta\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 125\n    },\n    {\n        \"Tanuló neve\": \"Péter Marcell\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 129\n    },\n    {\n        \"Tanuló neve\": \"Péter Melinda\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 160\n    },\n    {\n        \"Tanuló neve\": \"Puskás Lili\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 143\n    },\n    {\n        \"Tanuló neve\": \"Puskás Róbert\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 148\n    },\n    {\n        \"Tanuló neve\": \"Sándor Mónika\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 116\n    },\n    {\n        \"Tanuló neve\": \"Simon Martin\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 113\n    },\n    {\n        \"Tanuló neve\": \"Simon Tünde\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 149\n    },\n    {\n        \"Tanuló neve\": \"Sipos Pál\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 131\n    },\n    {\n        \"Tanuló neve\": \"Somogyi Lilla\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 127\n    },\n    {\n        \"Tanuló neve\": \"Somogyi Terézia\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 140\n    },\n    {\n        \"Tanuló neve\": \"Soós Mihály\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 148\n    },\n    {\n        \"Tanuló neve\": \"Soós Szabolcs\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 120\n    },\n    {\n        \"Tanuló neve\": \"Szabó Zoltán\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 124\n    },\n    {\n        \"Tanuló neve\": \"Szekeres Milán\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 183\n    },\n    {\n        \"Tanuló neve\": \"Szekeres Petra\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 137\n    },\n    {\n        \"Tanuló neve\": \"Szilágyi Lóránt\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 125\n    },\n    {\n        \"Tanuló neve\": \"Szilágyi Richárd\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 180\n    },\n    {\n        \"Tanuló neve\": \"Szilágyi Zsuzsanna\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 189\n    },\n    {\n        \"Tanuló neve\": \"Szőke Kornél\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 122\n    },\n    {\n        \"Tanuló neve\": \"Szücs Tibor\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 146\n    },\n    {\n        \"Tanuló neve\": \"Takács Márk\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 140\n    },\n    {\n        \"Tanuló neve\": \"Tamás Renáta\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 159\n    },\n    {\n        \"Tanuló neve\": \"Tóth Mátyás\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 122\n    },\n    {\n        \"Tanuló neve\": \"Török Réka\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 127\n    },\n    {\n        \"Tanuló neve\": \"Váradi Rudolf\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 175\n    },\n    {\n        \"Tanuló neve\": \"Varga Klaudia\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 165\n    },\n    {\n        \"Tanuló neve\": \"Varga Marcell\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 166\n    },\n    {\n        \"Tanuló neve\": \"Varga Mariann\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 151\n    },\n    {\n        \"Tanuló neve\": \"Varga Nikoletta\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 98\n    },\n    {\n        \"Tanuló neve\": \"Varga Péter\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 149\n    },\n    {\n        \"Tanuló neve\": \"Vass Róza\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 111\n    },\n    {\n        \"Tanuló neve\": \"Végh Lajos\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 128\n    },\n    {\n        \"Tanuló neve\": \"Végh Zsombor\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 86\n    },\n    {\n        \"Tanuló neve\": \"Veres Rozália\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 131\n    },\n    {\n        \"Tanuló neve\": \"Veres Zsolt\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 120\n    },\n    {\n        \"Tanuló neve\": \"Vincze Márta\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 140\n    },\n    {\n        \"Tanuló neve\": \"Vincze Milán\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 150\n    }\n]"
+				},
+				{
+					"name": "Tesztelés",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/felvettek-rangsora?agazat=informatika",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"felvettek-rangsora"
+							],
+							"query": [
+								{
+									"key": "agazat",
+									"value": "informatika"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1214"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"4be-HxGuOSkpq7oc65xWwy0T6PbtdLc\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Mar 2025 13:08:08 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Tanuló neve\": \"Máté Zoltán\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 180\n    },\n    {\n        \"Tanuló neve\": \"Szilágyi Richárd\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 180\n    },\n    {\n        \"Tanuló neve\": \"Váradi Rudolf\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 175\n    },\n    {\n        \"Tanuló neve\": \"Bodnár Réka\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 168\n    },\n    {\n        \"Tanuló neve\": \"Pap Szilvia\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 166\n    },\n    {\n        \"Tanuló neve\": \"Halász Martin\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 143\n    },\n    {\n        \"Tanuló neve\": \"Vincze Márta\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 140\n    },\n    {\n        \"Tanuló neve\": \"Sipos Pál\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 131\n    },\n    {\n        \"Tanuló neve\": \"Péter Marcell\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 129\n    },\n    {\n        \"Tanuló neve\": \"Nagy Vince\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 128\n    },\n    {\n        \"Tanuló neve\": \"Orosz Zalán\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 126\n    },\n    {\n        \"Tanuló neve\": \"Pál Mariann\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 120\n    },\n    {\n        \"Tanuló neve\": \"Veres Zsolt\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 120\n    },\n    {\n        \"Tanuló neve\": \"Bakos Tivadar\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 107\n    },\n    {\n        \"Tanuló neve\": \"Németh Roland\",\n        \"Ágazat\": \"informatika\",\n        \"Összes pontszám\": 106\n    }\n]"
+				},
+				{
+					"name": "Tesztelés",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/felvettek-rangsora?agazat=elektronika",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"felvettek-rangsora"
+							],
+							"query": [
+								{
+									"key": "agazat",
+									"value": "elektronika"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "994"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"3e2-L7zZYZVo/5QHVbDCXuAtQCa1wJo\""
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Mar 2025 13:08:18 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"Tanuló neve\": \"Szilágyi Zsuzsanna\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 189\n    },\n    {\n        \"Tanuló neve\": \"Dobos Zita\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 171\n    },\n    {\n        \"Tanuló neve\": \"Király Szabolcs\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 169\n    },\n    {\n        \"Tanuló neve\": \"Faragó Zsigmond\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 164\n    },\n    {\n        \"Tanuló neve\": \"Major Veronika\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 159\n    },\n    {\n        \"Tanuló neve\": \"Mészáros Renáta\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 158\n    },\n    {\n        \"Tanuló neve\": \"Fodor Richárd\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 150\n    },\n    {\n        \"Tanuló neve\": \"Antal Olivér\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 145\n    },\n    {\n        \"Tanuló neve\": \"Török Réka\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 127\n    },\n    {\n        \"Tanuló neve\": \"Bognár Richárd\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 122\n    },\n    {\n        \"Tanuló neve\": \"Katona Virág\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 121\n    },\n    {\n        \"Tanuló neve\": \"Sándor Mónika\",\n        \"Ágazat\": \"elektronika\",\n        \"Összes pontszám\": 116\n    }\n]"
+				}
+			]
+		}
+	]
+}
